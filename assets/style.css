@@ -1,16 +1,12 @@
 body {
 	max-width: 1920px;
-	margin: auto;
 }
 * {
 	font-family: 'Inter';
 	font-style: normal;
 }
-.top-header {
-	background-color: white;
+header {
 	position: sticky;
-	top:0;
-	z-index: 1000;
 	display: flex;
 	justify-content: space-between;
 	padding-inline: 100px;
@@ -91,7 +87,7 @@ body {
 }
 
 #gallery {
-	/*	min-height: 100vh; */
+	min-height: 100vh;
 }
 .title{
 	text-align: center;
