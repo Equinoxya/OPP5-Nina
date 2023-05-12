@@ -18,24 +18,25 @@ header {
 	font-size: 26px;
 }
 
-nav ul {
+.nav ul {
 	display: flex;
 	list-style-type: none;
 	font-size: 14px;
 	margin-bottom: 0;
 }
 
-nav li {
+.nav li {
 	padding-inline: 10px;
 }
 
-nav a {
+.nav a {
 	text-decoration: none;
 	color: #000
 }
 
 .social-link img {
 	width: 20px;
+	height: 20px;
 }
 
 #about {
@@ -65,7 +66,7 @@ nav a {
 
 .picture img {
 	width: 100%;
-
+	height: 100%;
 }
 #about-me {
 	flex: 2
